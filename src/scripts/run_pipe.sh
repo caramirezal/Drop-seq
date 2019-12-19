@@ -31,7 +31,7 @@ base_dir=/net/data.isilon/ag-cherrmann/cramirez/Drop-seq/
 
 bash $base_dir/src/scripts/Drop-seq_alignment.sh \
      -g $base_dir/data/metadata/STAR/ \
-     -r $base_dir/data/metadata/data_int.fa \
+     -r $base_dir/data/metadata/data_int.fasta \
      -d $base_dir/inst/Drop-seq_tools-2.3.0/ \
      -o $base_dir/data/out/ \
      -t $base_dir/data/temp_dir/ \
