@@ -31,5 +31,6 @@ bash $base_dir/inst/Drop-seq_tools-2.3.0/DigitalExpression \
       I=$base_dir/data/out/final.bam \
       O=$base_dir/data/matrix.mtx.gz \
       SUMMARY=out_gene_exon_tagged.dge.summary.txt \
-      NUM_CORE_BARCODES=100
-
+      NUM_CORE_BARCODES=50 \
+      USE_STRAND_INFO=false \
+      GENE_EXON_TAG=ZI
